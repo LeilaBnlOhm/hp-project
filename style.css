@@ -655,3 +655,156 @@ footer {
         letter-spacing: 2.5px;
     }
 }
+
+/* =========================
+   INTRO ANIMATION
+========================= */
+
+.intro-animation {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+
+    background:
+        radial-gradient(circle at center, rgba(68, 96, 255, 0.18), transparent 35%),
+        linear-gradient(180deg, rgba(4, 6, 13, 0.96), rgba(4, 6, 13, 1));
+
+    animation: introFadeOut 1s ease 3.8s forwards;
+}
+
+.intro-glow {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    border-radius: 50%;
+
+    background: rgba(75, 112, 255, 0.12);
+    filter: blur(60px);
+
+    animation: pulseGlow 2s ease-in-out infinite;
+}
+
+.intro-title {
+    position: absolute;
+    bottom: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.intro-title p {
+    margin: 0;
+
+    color: var(--silver);
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+    letter-spacing: 2px;
+
+    text-shadow:
+        0 0 10px rgba(255, 255, 255, 0.2),
+        0 0 20px rgba(75, 112, 255, 0.35);
+}
+
+/* Sorcier volant */
+
+.flying-wizard {
+    position: absolute;
+    top: 28%;
+    left: -260px;
+
+    width: 240px;
+    max-width: 30vw;
+    height: auto;
+
+    filter:
+        drop-shadow(0 0 10px rgba(255, 255, 255, 0.1))
+        drop-shadow(0 0 25px rgba(75, 112, 255, 0.35));
+
+    animation: flyAcross 3.2s ease-in-out forwards;
+}
+
+/* Mouvement du sorcier */
+
+@keyframes flyAcross {
+    0% {
+        left: -260px;
+        top: 32%;
+        transform: translateY(0) scale(0.92) rotate(-6deg);
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    25% {
+        top: 24%;
+        transform: translateY(-8px) scale(1) rotate(-2deg);
+    }
+
+    50% {
+        top: 30%;
+        transform: translateY(6px) scale(1.03) rotate(1deg);
+    }
+
+    75% {
+        top: 22%;
+        transform: translateY(-5px) scale(1) rotate(4deg);
+    }
+
+    100% {
+        left: calc(100% + 260px);
+        top: 18%;
+        transform: translateY(0) scale(0.96) rotate(8deg);
+        opacity: 1;
+    }
+}
+
+/* Halo lumineux */
+
+@keyframes pulseGlow {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1.15);
+        opacity: 1;
+    }
+}
+
+/* Disparition de l'écran d'intro */
+
+@keyframes introFadeOut {
+    to {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 800px) {
+    .flying-wizard {
+        width: 170px;
+        top: 35%;
+    }
+
+    .intro-title {
+        bottom: 18%;
+        width: 90%;
+    }
+
+    .intro-title p {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+}

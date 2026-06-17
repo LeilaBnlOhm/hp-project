@@ -14,6 +14,19 @@
 </head>
 
 <body>
+    <div id="intro-animation" class="intro-animation">
+        <div class="intro-glow"></div>
+
+        <img
+            src="./images/sorcier-balai.png"
+            alt="Sorcier sur un balai"
+            class="flying-wizard"
+        >
+
+        <div class="intro-title">
+            <p>Bienvenue à Poudlard Numérique</p>
+        </div>
+    </div>
 
     <!-- Barre de navigation -->
     <header class="topbar">
@@ -189,5 +202,17 @@
         </p>
     </footer>
 
+
+    <script>
+        window.addEventListener("load", function () {
+            const intro = document.getElementById("intro-animation");
+
+            setTimeout(() => {
+                if (intro) {
+                    intro.style.display = "none";
+                }
+            }, 5000);
+        });
+    </script>
 </body>
 </html>
