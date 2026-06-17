@@ -20,6 +20,7 @@
 
 html {
     scroll-behavior: smooth;
+    scroll-padding-top: 130px;
 }
 
 body {
@@ -57,7 +58,7 @@ body {
     top: 0;
     z-index: 100;
 
-    min-height: 88px;
+    min-height: 120px;
     padding: 12px 40px;
 
     display: flex;
@@ -65,10 +66,12 @@ body {
     justify-content: space-between;
     gap: 30px;
 
-    background: rgba(7, 10, 19, 0.88);
+    background: rgba(7, 10, 19, 0.9);
     border-bottom: 1px solid var(--border);
 
     backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
@@ -78,13 +81,18 @@ body {
     display: flex;
     align-items: center;
     flex-shrink: 0;
+    text-decoration: none;
 }
 
 .site-logo {
     display: block;
-    width: 180px;
-    max-height: 66px;
+
+    width: 280px;
+    max-width: 100%;
+    max-height: 100px;
+
     object-fit: contain;
+    object-position: left center;
 
     filter:
         drop-shadow(0 0 7px rgba(255, 255, 255, 0.25))
@@ -178,6 +186,9 @@ body {
 /* Section principale */
 
 .hero {
+    position: relative;
+    overflow: hidden;
+
     min-height: 76vh;
     padding: 100px 30px;
 
@@ -229,6 +240,66 @@ body {
     color: var(--muted);
     font-size: 1.15rem;
     line-height: 1.8;
+}
+
+/* Texte situé au-dessus du grand titre */
+
+.hero-label {
+    margin-bottom: 16px;
+
+    color: var(--gold);
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+/* Description du héros */
+
+.hero-description {
+    max-width: 680px;
+}
+
+/* Bouton principal */
+
+.hero-button {
+    position: relative;
+    display: inline-block;
+
+    margin-top: 28px;
+    padding: 15px 28px;
+
+    color: white;
+    background: linear-gradient(
+        135deg,
+        #2849c7,
+        #5278ff
+    );
+
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 5px;
+
+    font-size: 0.85rem;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    box-shadow:
+        0 8px 25px rgba(33, 75, 220, 0.35),
+        inset 0 1px rgba(255, 255, 255, 0.25);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.hero-button:hover {
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 12px 35px rgba(62, 104, 255, 0.55),
+        inset 0 1px rgba(255, 255, 255, 0.3);
 }
 
 /* Cartes de contenu */
@@ -292,106 +363,6 @@ h2::after {
     );
 
     border-radius: 10px;
-}
-
-/* Responsive */
-
-@media (max-width: 800px) {
-    .topbar {
-        padding: 14px 20px;
-        align-items: flex-start;
-    }
-
-    .site-logo {
-        width: 135px;
-    }
-
-    .navigation {
-        gap: 12px;
-        flex-wrap: wrap;
-    }
-
-    .navigation a:not(.profile-button) {
-        display: none;
-    }
-
-    .profile-button {
-        padding: 10px 14px;
-        font-size: 0.75rem;
-    }
-
-    .hero {
-        min-height: 65vh;
-        padding: 80px 20px;
-    }
-
-    main {
-        padding: 30px 18px 70px;
-    }
-
-    section.content-card {
-        padding: 25px;
-    }
-}
-
-/* Texte situé au-dessus du grand titre */
-
-.hero-label {
-    margin-bottom: 16px;
-
-    color: var(--gold);
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-}
-
-/* Description du héros */
-
-.hero-description {
-    max-width: 680px;
-}
-
-/* Bouton principal */
-
-.hero-button {
-    position: relative;
-    display: inline-block;
-
-    margin-top: 28px;
-    padding: 15px 28px;
-
-    color: white;
-    background: linear-gradient(
-        135deg,
-        #2849c7,
-        #5278ff
-    );
-
-    border: 1px solid rgba(255, 255, 255, 0.35);
-    border-radius: 5px;
-
-    font-size: 0.85rem;
-    font-weight: 700;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    text-transform: uppercase;
-
-    box-shadow:
-        0 8px 25px rgba(33, 75, 220, 0.35),
-        inset 0 1px rgba(255, 255, 255, 0.25);
-
-    transition:
-        transform 0.25s ease,
-        box-shadow 0.25s ease;
-}
-
-.hero-button:hover {
-    transform: translateY(-3px);
-
-    box-shadow:
-        0 12px 35px rgba(62, 104, 255, 0.55),
-        inset 0 1px rgba(255, 255, 255, 0.3);
 }
 
 /* Image des résultats */
@@ -589,4 +560,98 @@ footer {
 
     font-size: 0.75rem;
     opacity: 0.65;
+}
+
+/* Tablette */
+
+@media (max-width: 1050px) {
+    .site-logo {
+        width: 230px;
+        max-height: 90px;
+    }
+
+    .navigation {
+        gap: 16px;
+    }
+
+    .navigation a {
+        font-size: 0.78rem;
+        letter-spacing: 1px;
+    }
+}
+
+/* Téléphone */
+
+@media (max-width: 800px) {
+    html {
+        scroll-padding-top: 105px;
+    }
+
+    .topbar {
+        min-height: 100px;
+        padding: 10px 18px;
+        align-items: center;
+    }
+
+    .site-logo {
+        width: 190px;
+        max-height: 78px;
+    }
+
+    .navigation {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .navigation a:not(.profile-button) {
+        display: none;
+    }
+
+    .profile-button {
+        padding: 10px 14px;
+        font-size: 0.7rem;
+    }
+
+    .hero {
+        min-height: 65vh;
+        padding: 80px 20px;
+    }
+
+    main {
+        padding: 30px 18px 70px;
+    }
+
+    section.content-card {
+        padding: 25px;
+    }
+}
+
+/* Très petits téléphones */
+
+@media (max-width: 480px) {
+    .topbar {
+        min-height: 88px;
+        padding: 8px 12px;
+    }
+
+    .site-logo {
+        width: 155px;
+        max-height: 68px;
+    }
+
+    .profile-button {
+        padding: 9px 10px;
+        font-size: 0.62rem;
+        letter-spacing: 0.8px;
+    }
+
+    .hero h1 {
+        font-size: 2.4rem;
+        letter-spacing: 1.5px;
+    }
+
+    .hero-label {
+        font-size: 0.7rem;
+        letter-spacing: 2.5px;
+    }
 }
