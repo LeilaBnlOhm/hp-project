@@ -14,19 +14,15 @@
 </head>
 
 <body>
-    <div id="intro-animation" class="intro-animation">
-        <div class="intro-glow"></div>
-
-        <img
-            src="./images/sorcier-balai.png"
-            alt="Sorcier sur un balai"
-            class="flying-wizard"
-        >
-
-        <div class="intro-title">
-            <p>Bienvenue à Poudlard Numérique</p>
-        </div>
-    </div>
+<div id="intro-animation" class="intro-animation"> 
+    <div class="flying-group">
+        <div class="magic-trail"></div> 
+        <div class="magic-dust magic-dust-one"></div> 
+        <div class="magic-dust magic-dust-two"></div> 
+        <img src="./images/sorcier-balai.png" alt="Sorcier volant sur un balai" class="flying-wizard" > 
+    </div> 
+    <p class="intro-message"> Bienvenue à Poudlard Numérique </p> 
+</div>
 
     <!-- Barre de navigation -->
     <header class="topbar">
@@ -203,16 +199,16 @@
     </footer>
 
 
-    <script>
-        window.addEventListener("load", function () {
-            const intro = document.getElementById("intro-animation");
-
-            setTimeout(() => {
-                if (intro) {
-                    intro.style.display = "none";
-                }
-            }, 5000);
-        });
+    <script> 
+        window.addEventListener("load", () => { 
+            const intro = document.getElementById("intro-animation"); 
+            if (!intro) {
+                return;
+            } 
+            setTimeout(() => { 
+                intro.remove(); 
+            }, 5500); 
+        }); 
     </script>
 </body>
 </html>
