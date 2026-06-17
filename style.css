@@ -58,21 +58,22 @@ body {
     top: 0;
     z-index: 100;
 
-    min-height: 120px;
-    padding: 12px 40px;
+    min-height: 130px;
+    padding: 10px 48px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 30px;
+    gap: 40px;
 
     background: rgba(7, 10, 19, 0.9);
-    border-bottom: 1px solid var(--border);
+
+    /* Barre sans bordure ni ligne de séparation */
+    border: none;
+    box-shadow: none;
 
     backdrop-filter: blur(18px);
     -webkit-backdrop-filter: blur(18px);
-
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
 }
 
 /* Logo */
@@ -82,17 +83,24 @@ body {
     align-items: center;
     flex-shrink: 0;
     text-decoration: none;
+
+    /* Laisse le logo dépasser si le PNG contient des marges transparentes */
+    overflow: visible;
 }
 
 .site-logo {
     display: block;
 
-    width: 280px;
-    max-width: 100%;
-    max-height: 100px;
+    width: 340px;
+    max-width: none;
+    max-height: 115px;
 
     object-fit: contain;
     object-position: left center;
+
+    /* Agrandit aussi la partie visible si l'image possède des marges transparentes */
+    transform: scale(1.25);
+    transform-origin: left center;
 
     filter:
         drop-shadow(0 0 7px rgba(255, 255, 255, 0.25))
@@ -104,7 +112,7 @@ body {
 }
 
 .site-logo:hover {
-    transform: scale(1.04);
+    transform: scale(1.3);
 
     filter:
         drop-shadow(0 0 10px rgba(255, 255, 255, 0.4))
@@ -566,8 +574,13 @@ footer {
 
 @media (max-width: 1050px) {
     .site-logo {
-        width: 230px;
-        max-height: 90px;
+        width: 270px;
+        max-height: 95px;
+        transform: scale(1.15);
+    }
+
+    .site-logo:hover {
+        transform: scale(1.2);
     }
 
     .navigation {
@@ -594,8 +607,13 @@ footer {
     }
 
     .site-logo {
-        width: 190px;
-        max-height: 78px;
+        width: 210px;
+        max-height: 80px;
+        transform: scale(1.08);
+    }
+
+    .site-logo:hover {
+        transform: scale(1.12);
     }
 
     .navigation {
@@ -635,8 +653,13 @@ footer {
     }
 
     .site-logo {
-        width: 155px;
+        width: 165px;
         max-height: 68px;
+        transform: scale(1.04);
+    }
+
+    .site-logo:hover {
+        transform: scale(1.08);
     }
 
     .profile-button {
