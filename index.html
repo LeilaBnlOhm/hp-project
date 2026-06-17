@@ -10,31 +10,19 @@
     <title>Projet Harry Potter — Méthodes numériques</title>
 
     <!-- Change le numéro après chaque grosse modification du CSS -->
-    <link rel="stylesheet" href="./style.css?v=4">
+    <link rel="stylesheet" href="./style.css?v=5">
 </head>
 
 <body>
-
-    <div id="intro-animation" class="intro-animation">
-        <div id="flying-group" class="flying-group" aria-hidden="true">
-
-            <div class="magic-trail"></div>
-
-            <span id="trail-origin" class="trail-origin"></span>
-
-            <img
-                src="./images/sorcier-balai.png"
-                alt=""
-                class="flying-wizard"
-            >
-        </div>
-
-        <p class="intro-message">
-            Bienvenue à Poudlard 
-        </p>
-    </div>
-
-
+<div id="intro-animation" class="intro-animation"> 
+    <div class="flying-group">
+        <div class="magic-trail"></div> 
+        <div class="magic-dust magic-dust-one"></div> 
+        <div class="magic-dust magic-dust-two"></div> 
+        <img src="./images/sorcier-balai.png" alt="Sorcier volant sur un balai" class="flying-wizard" > 
+    </div> 
+    <p class="intro-message"> Bienvenue à Poudlard Numérique </p> 
+</div>
 
     <!-- Barre de navigation -->
     <header class="topbar">
@@ -211,137 +199,16 @@
     </footer>
 
 
- 
-    <script>
-        window.addEventListener("load", () => {
-            const intro = document.getElementById("intro-animation");
-            const flyingGroup = document.getElementById("flying-group");
-            const trailOrigin = document.getElementById("trail-origin");
-
-            if (!intro || !flyingGroup || !trailOrigin) {
+    <script> 
+        window.addEventListener("load", () => { 
+            const intro = document.getElementById("intro-animation"); 
+            if (!intro) {
                 return;
-            }
-
-            document.body.classList.add("intro-locked");
-
-            let animationFinished = false;
-
-            function createParticle() {
-                const origin = trailOrigin.getBoundingClientRect();
-
-                /*
-                * Ne crée pas de particules lorsque le sorcier
-                * se trouve entièrement hors de l’écran.
-                */
-                if (
-                    origin.right < 0 ||
-                    origin.left > window.innerWidth ||
-                    origin.bottom < 0 ||
-                    origin.top > window.innerHeight
-                ) {
-                    return;
-                }
-
-                /*
-                * Plusieurs petites particules sont créées
-                * à chaque passage de la fonction.
-                */
-                for (let i = 0; i < 2; i++) {
-                    const particle = document.createElement("span");
-
-                    particle.className = "magic-particle";
-
-                    const size = 3 + Math.random() * 7;
-                    const startX =
-                        origin.left +
-                        origin.width / 2 +
-                        (Math.random() - 0.5) * 24;
-
-                    const startY =
-                        origin.top +
-                        origin.height / 2 +
-                        (Math.random() - 0.5) * 20;
-
-                    const driftX = -70 - Math.random() * 150;
-                    const driftY = (Math.random() - 0.5) * 110;
-                    const duration = 850 + Math.random() * 900;
-
-                    particle.style.left = `${startX}px`;
-                    particle.style.top = `${startY}px`;
-
-                    particle.style.setProperty(
-                        "--particle-size",
-                        `${size}px`
-                    );
-
-                    particle.style.setProperty(
-                        "--particle-x",
-                        `${driftX}px`
-                    );
-
-                    particle.style.setProperty(
-                        "--particle-y",
-                        `${driftY}px`
-                    );
-
-                    particle.style.setProperty(
-                        "--particle-duration",
-                        `${duration}ms`
-                    );
-
-                    intro.appendChild(particle);
-
-                    particle.addEventListener(
-                        "animationend",
-                        () => particle.remove(),
-                        { once: true }
-                    );
-                }
-            }
-
-            const particleTimer = window.setInterval(
-                createParticle,
-                45
-            );
-
-            function closeIntroduction() {
-                if (animationFinished) {
-                    return;
-                }
-
-                animationFinished = true;
-
-                window.clearInterval(particleTimer);
-
-                /*
-                * On laisse les dernières particules disparaître
-                * avant de fermer l’introduction.
-                */
-                window.setTimeout(() => {
-                    intro.classList.add("is-closing");
-
-                    window.setTimeout(() => {
-                        intro.remove();
-                        document.body.classList.remove("intro-locked");
-                    }, 900);
-                }, 450);
-            }
-
-            flyingGroup.addEventListener(
-                "animationend",
-                (event) => {
-                    if (event.animationName === "wizardFlight") {
-                        closeIntroduction();
-                    }
-                }
-            );
-
-            /*
-            * Sécurité : ferme l’introduction si un navigateur
-            * ne déclenche pas correctement animationend.
-            */
-            window.setTimeout(closeIntroduction, 6500);
-        });
+            } 
+            setTimeout(() => { 
+                intro.remove(); 
+            }, 5500); 
+        }); 
     </script>
 </body>
 </html>
