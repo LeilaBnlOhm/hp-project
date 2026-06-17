@@ -2,50 +2,86 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-    <title>Projet de méthodes numériques</title>
-    <link rel="stylesheet" href="./style.css?v=2">
+    <title>Projet Harry Potter — Méthodes numériques</title>
+
+    <!-- Change le numéro après chaque grosse modification du CSS -->
+    <link rel="stylesheet" href="./style.css?v=3">
 </head>
 
 <body>
-    <header>
-         <h1>✦ Projet de méthodes numériques ✦</h1>
-         <p>Exploration des mystères du calcul scientifique</p>
+
+    <!-- Barre de navigation -->
+    <header class="topbar">
+        <a class="logo-link" href="#accueil">
+            <img
+                class="site-logo"
+                src="./images/harry-potter-logo.png"
+                alt="Projet Harry Potter"
+            >
+        </a>
+
+        <nav class="navigation" aria-label="Navigation principale">
+            <a href="#accueil">Accueil</a>
+            <a href="#objectif">Objectif</a>
+            <a href="#methode">Méthode</a>
+            <a href="#resultats">Résultats</a>
+            <a class="profile-button" href="#equipe">
+                Les sorciers
+            </a>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#objectif">Objectif</a>
-        <a href="#methode">Méthode</a>
-        <a href="#resultats">Résultats</a>
-        <a href="#conclusion">Conclusion</a>
-    </nav>
+    <!-- Page d’accueil -->
+    <section class="hero" id="accueil">
+        <p class="hero-label">Projet de méthodes numériques</p>
+
+        <h1>
+            Exploration des mystères<br>
+            du calcul scientifique
+        </h1>
+
+        <p class="hero-description">
+            Découvrez notre méthode, nos simulations et les résultats
+            obtenus au cours de cette aventure numérique.
+        </p>
+
+        <a class="hero-button" href="#objectif">
+            Découvrir le projet
+        </a>
+    </section>
 
     <main>
-        <section id="objectif">
+
+        <!-- Objectif -->
+        <section class="content-card" id="objectif">
             <h2>1. Objectif du projet</h2>
 
             <p>
-                L'objectif de ce projet est de résoudre numériquement
-                un problème donné et d'étudier la précision de la méthode.
+                L’objectif de ce projet est de résoudre numériquement
+                un problème donné et d’étudier la précision de la méthode.
             </p>
         </section>
 
-        <section id="methode">
+        <!-- Méthode -->
+        <section class="content-card" id="methode">
             <h2>2. Méthode numérique</h2>
 
             <p>
-                Nous utilisons ici la méthode d'Euler, puis nous comparons
+                Nous utilisons ici la méthode d’Euler, puis nous comparons
                 les résultats avec une solution de référence.
             </p>
 
-            <pre><code>
-for i in range(n):
-    y[i + 1] = y[i] + h * f(t[i], y[i])
-            </code></pre>
+            <pre><code>for i in range(n):
+    y[i + 1] = y[i] + h * f(t[i], y[i])</code></pre>
         </section>
 
-        <section id="resultats">
+        <!-- Résultats -->
+        <section class="content-card" id="resultats">
             <h2>3. Résultats</h2>
 
             <p>
@@ -55,44 +91,51 @@ for i in range(n):
 
             <figure>
                 <img
-                    src="images/resultat1.png"
+                    class="result-image"
+                    src="./images/resultat1.png"
                     alt="Comparaison entre la solution numérique et la solution exacte"
                 >
+
                 <figcaption>
                     Figure 1 — Comparaison des solutions.
                 </figcaption>
             </figure>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th>Pas h</th>
-                        <th>Erreur maximale</th>
-                        <th>Temps de calcul</th>
-                    </tr>
-                </thead>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pas h</th>
+                            <th>Erreur maximale</th>
+                            <th>Temps de calcul</th>
+                        </tr>
+                    </thead>
 
-                <tbody>
-                    <tr>
-                        <td>0,1</td>
-                        <td>0,045</td>
-                        <td>0,02 s</td>
-                    </tr>
-                    <tr>
-                        <td>0,01</td>
-                        <td>0,0048</td>
-                        <td>0,10 s</td>
-                    </tr>
-                    <tr>
-                        <td>0,001</td>
-                        <td>0,0005</td>
-                        <td>0,82 s</td>
-                    </tr>
-                </tbody>
-            </table>
+                    <tbody>
+                        <tr>
+                            <td>0,1</td>
+                            <td>0,045</td>
+                            <td>0,02 s</td>
+                        </tr>
+
+                        <tr>
+                            <td>0,01</td>
+                            <td>0,0048</td>
+                            <td>0,10 s</td>
+                        </tr>
+
+                        <tr>
+                            <td>0,001</td>
+                            <td>0,0005</td>
+                            <td>0,82 s</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </section>
 
-        <section id="conclusion">
+        <!-- Conclusion -->
+        <section class="content-card" id="conclusion">
             <h2>4. Conclusion</h2>
 
             <p>
@@ -100,16 +143,51 @@ for i in range(n):
                 également le temps de calcul.
             </p>
 
-            <p>
-                <a class="bouton" href="code/simulation.py">Voir le grimoire du code</a>
-                
-                <a class="bouton" href="donnees/resultats.csv">Consulter les résultats</a>
-            </p>
+            <div class="button-group">
+                <a class="bouton" href="./code/simulation.py">
+                    Voir le grimoire du code
+                </a>
+
+                <a class="bouton" href="./donnees/resultats.csv">
+                    Consulter les résultats
+                </a>
+            </div>
         </section>
+
+        <!-- Équipe -->
+        <section class="content-card" id="equipe">
+            <h2>Les sorciers du projet</h2>
+
+            <p>
+                Présentez ici les membres de l’équipe et leurs rôles
+                dans le projet.
+            </p>
+
+            <div class="team-grid">
+                <article class="team-member">
+                    <div class="avatar">L</div>
+                    <h3>Prénom Nom</h3>
+                    <p>Analyse numérique</p>
+                </article>
+
+                <article class="team-member">
+                    <div class="avatar">A</div>
+                    <h3>Prénom Nom</h3>
+                    <p>Développement et visualisation</p>
+                </article>
+            </div>
+        </section>
+
     </main>
 
     <footer>
         <p>Projet réalisé par Prénom Nom — 2026</p>
+
+        <p class="legal-note">
+            Projet étudiant non officiel, sans affiliation avec
+            les propriétaires de la franchise Harry Potter.
+        </p>
     </footer>
+
 </body>
 </html>
