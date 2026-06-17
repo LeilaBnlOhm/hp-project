@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Projet de méthodes numériques</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Résolution numérique d'un problème</h1>
+        <p>Présentation des méthodes, simulations et résultats obtenus</p>
+    </header>
+
+    <nav>
+        <a href="#objectif">Objectif</a>
+        <a href="#methode">Méthode</a>
+        <a href="#resultats">Résultats</a>
+        <a href="#conclusion">Conclusion</a>
+    </nav>
+
+    <main>
+        <section id="objectif">
+            <h2>1. Objectif du projet</h2>
+
+            <p>
+                L'objectif de ce projet est de résoudre numériquement
+                un problème donné et d'étudier la précision de la méthode.
+            </p>
+        </section>
+
+        <section id="methode">
+            <h2>2. Méthode numérique</h2>
+
+            <p>
+                Nous utilisons ici la méthode d'Euler, puis nous comparons
+                les résultats avec une solution de référence.
+            </p>
+
+            <pre><code>
+for i in range(n):
+    y[i + 1] = y[i] + h * f(t[i], y[i])
+            </code></pre>
+        </section>
+
+        <section id="resultats">
+            <h2>3. Résultats</h2>
+
+            <p>
+                Le graphique suivant montre la comparaison entre
+                la solution numérique et la solution exacte.
+            </p>
+
+            <figure>
+                <img
+                    src="images/resultat1.png"
+                    alt="Comparaison entre la solution numérique et la solution exacte"
+                >
+                <figcaption>
+                    Figure 1 — Comparaison des solutions.
+                </figcaption>
+            </figure>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pas h</th>
+                        <th>Erreur maximale</th>
+                        <th>Temps de calcul</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>0,1</td>
+                        <td>0,045</td>
+                        <td>0,02 s</td>
+                    </tr>
+                    <tr>
+                        <td>0,01</td>
+                        <td>0,0048</td>
+                        <td>0,10 s</td>
+                    </tr>
+                    <tr>
+                        <td>0,001</td>
+                        <td>0,0005</td>
+                        <td>0,82 s</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="conclusion">
+            <h2>4. Conclusion</h2>
+
+            <p>
+                La diminution du pas améliore la précision, mais augmente
+                également le temps de calcul.
+            </p>
+
+            <p>
+                <a href="code/simulation.py">Consulter le code source</a>
+                ·
+                <a href="donnees/resultats.csv">Télécharger les résultats</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projet réalisé par Prénom Nom — 2026</p>
+    </footer>
+</body>
+</html>
