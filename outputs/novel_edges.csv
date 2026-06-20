@@ -1,0 +1,747 @@
+Source,Target,Weight,Type
+Harry Potter,Vernon Dursley,255,Undirected
+Harry Potter,Petunia Dursley,147,Undirected
+Dudley Dursley,Harry Potter,196,Undirected
+Petunia Dursley,Vernon Dursley,73,Undirected
+Dudley Dursley,Vernon Dursley,49,Undirected
+Dudley Dursley,Petunia Dursley,54,Undirected
+Harry Potter,Severus Snape,415,Undirected
+Harry Potter,Rubeus Hagrid,749,Undirected
+Rubeus Hagrid,Severus Snape,12,Undirected
+Severus Snape,Vernon Dursley,1,Undirected
+Rubeus Hagrid,Vernon Dursley,1,Undirected
+Hedwig,Vernon Dursley,15,Undirected
+Harry Potter,Hedwig,107,Undirected
+Hedwig,Petunia Dursley,7,Undirected
+Dudley Dursley,Hedwig,4,Undirected
+Dudley Dursley,Lord Voldemort,12,Undirected
+Harry Potter,Lord Voldemort,987,Undirected
+The Masons,Vernon Dursley,25,Undirected
+Petunia Dursley,The Masons,36,Undirected
+Dudley Dursley,The Masons,20,Undirected
+Harry Potter,The Masons,61,Undirected
+Dudley Dursley,Ronald Weasley,23,Undirected
+Harry Potter,Ronald Weasley,3037,Undirected
+Harry Potter,Hermione Granger,1282,Undirected
+Hermione Granger,Ronald Weasley,857,Undirected
+Hedwig,Ronald Weasley,51,Undirected
+Hedwig,Hermione Granger,7,Undirected
+Dudley Dursley,Hermione Granger,9,Undirected
+Draco Malfoy,Harry Potter,1088,Undirected
+Draco Malfoy,Dudley Dursley,9,Undirected
+Draco Malfoy,Ronald Weasley,351,Undirected
+Lord Voldemort,Ronald Weasley,100,Undirected
+Draco Malfoy,Hermione Granger,201,Undirected
+Hermione Granger,Lord Voldemort,58,Undirected
+Draco Malfoy,Lord Voldemort,43,Undirected
+Dobby,Petunia Dursley,31,Undirected
+Dobby,Harry Potter,1459,Undirected
+Dobby,Vernon Dursley,35,Undirected
+Dobby,Dudley Dursley,14,Undirected
+Dobby,The Masons,12,Undirected
+Hedwig,The Masons,1,Undirected
+Dobby,Hedwig,19,Undirected
+Dobby,Hermione Granger,60,Undirected
+Dobby,Lord Voldemort,42,Undirected
+Dobby,Ronald Weasley,75,Undirected
+Albus Dumbledore,Dobby,86,Undirected
+Albus Dumbledore,Harry Potter,705,Undirected
+Albus Dumbledore,Vernon Dursley,5,Undirected
+Albus Dumbledore,Dudley Dursley,2,Undirected
+Dobby,Rubeus Hagrid,17,Undirected
+Hermione Granger,Rubeus Hagrid,117,Undirected
+Ronald Weasley,Rubeus Hagrid,272,Undirected
+Fred Weasley,Ronald Weasley,166,Undirected
+George Weasley,Ronald Weasley,137,Undirected
+Fred Weasley,Harry Potter,433,Undirected
+George Weasley,Harry Potter,407,Undirected
+Fred Weasley,George Weasley,159,Undirected
+Fred Weasley,Hedwig,13,Undirected
+Ronald Weasley,Vernon Dursley,24,Undirected
+George Weasley,Vernon Dursley,22,Undirected
+Fred Weasley,Vernon Dursley,16,Undirected
+George Weasley,Hedwig,12,Undirected
+Petunia Dursley,Ronald Weasley,8,Undirected
+Fred Weasley,Petunia Dursley,3,Undirected
+George Weasley,Petunia Dursley,2,Undirected
+Dudley Dursley,Fred Weasley,5,Undirected
+Dudley Dursley,George Weasley,7,Undirected
+Dobby,George Weasley,8,Undirected
+Dobby,Fred Weasley,9,Undirected
+Draco Malfoy,Fred Weasley,73,Undirected
+Fred Weasley,Lucius Malfoy,9,Undirected
+Draco Malfoy,George Weasley,70,Undirected
+George Weasley,Lucius Malfoy,8,Undirected
+Harry Potter,Lucius Malfoy,103,Undirected
+Dobby,Draco Malfoy,122,Undirected
+Dobby,Lucius Malfoy,49,Undirected
+Lucius Malfoy,Ronald Weasley,24,Undirected
+Draco Malfoy,Lucius Malfoy,124,Undirected
+Dudley Dursley,Lucius Malfoy,2,Undirected
+Errol,Harry Potter,32,Undirected
+Draco Malfoy,Errol,8,Undirected
+Harry Potter,Percy Weasley,258,Undirected
+Draco Malfoy,Percy Weasley,66,Undirected
+Dobby,Errol,2,Undirected
+Dobby,Percy Weasley,6,Undirected
+Errol,Ronald Weasley,35,Undirected
+Percy Weasley,Ronald Weasley,175,Undirected
+Errol,Percy Weasley,12,Undirected
+Errol,Fred Weasley,2,Undirected
+Errol,George Weasley,2,Undirected
+Fred Weasley,Percy Weasley,51,Undirected
+George Weasley,Percy Weasley,43,Undirected
+Molly Weasley,Ronald Weasley,97,Undirected
+Harry Potter,Molly Weasley,233,Undirected
+Fred Weasley,Molly Weasley,55,Undirected
+George Weasley,Molly Weasley,48,Undirected
+Bill Weasley,George Weasley,8,Undirected
+Charlie Weasley,George Weasley,5,Undirected
+Bill Weasley,Molly Weasley,5,Undirected
+Charlie Weasley,Molly Weasley,4,Undirected
+Molly Weasley,Percy Weasley,33,Undirected
+Bill Weasley,Charlie Weasley,7,Undirected
+Bill Weasley,Percy Weasley,7,Undirected
+Bill Weasley,Fred Weasley,6,Undirected
+Bill Weasley,Harry Potter,23,Undirected
+Charlie Weasley,Percy Weasley,5,Undirected
+Charlie Weasley,Fred Weasley,4,Undirected
+Charlie Weasley,Harry Potter,13,Undirected
+Charlie Weasley,Ronald Weasley,2,Undirected
+Arthur Weasley,Harry Potter,228,Undirected
+Arthur Weasley,Molly Weasley,92,Undirected
+Arthur Weasley,Ronald Weasley,95,Undirected
+Arthur Weasley,Fred Weasley,33,Undirected
+Fred Weasley,Ginny Weasley,47,Undirected
+Ginny Weasley,Molly Weasley,53,Undirected
+George Weasley,Ginny Weasley,44,Undirected
+Ginny Weasley,Harry Potter,563,Undirected
+Ginny Weasley,Ronald Weasley,212,Undirected
+Arthur Weasley,George Weasley,31,Undirected
+Harry Potter,Scabbers,9,Undirected
+Ronald Weasley,Scabbers,10,Undirected
+Arthur Weasley,Ginny Weasley,54,Undirected
+Albus Dumbledore,Molly Weasley,15,Undirected
+Albus Dumbledore,Ginny Weasley,42,Undirected
+Albus Dumbledore,Arthur Weasley,38,Undirected
+Albus Dumbledore,Ronald Weasley,163,Undirected
+Albus Dumbledore,Fred Weasley,4,Undirected
+Albus Dumbledore,George Weasley,3,Undirected
+Ginny Weasley,Percy Weasley,81,Undirected
+Hermione Granger,Percy Weasley,52,Undirected
+Errol,Hermione Granger,12,Undirected
+Hermione Granger,Molly Weasley,33,Undirected
+Fred Weasley,Hermione Granger,41,Undirected
+George Weasley,Hermione Granger,35,Undirected
+Bill Weasley,Ginny Weasley,4,Undirected
+Charlie Weasley,Ginny Weasley,2,Undirected
+Dudley Dursley,Molly Weasley,3,Undirected
+Arthur Weasley,Dudley Dursley,2,Undirected
+Harry Potter,Katie Bell,57,Undirected
+Draco Malfoy,Katie Bell,21,Undirected
+Albus Dumbledore,Katie Bell,1,Undirected
+Albus Dumbledore,Draco Malfoy,130,Undirected
+Draco Malfoy,Mr Borgin,103,Undirected
+Harry Potter,Mr Borgin,41,Undirected
+Lord Voldemort,Mr Borgin,4,Undirected
+Arthur Weasley,Draco Malfoy,99,Undirected
+Arthur Weasley,Mr Borgin,8,Undirected
+Hermione Granger,Mr Borgin,9,Undirected
+Fred Weasley,Rubeus Hagrid,15,Undirected
+George Weasley,Rubeus Hagrid,15,Undirected
+Percy Weasley,Rubeus Hagrid,13,Undirected
+Arthur Weasley,Rubeus Hagrid,41,Undirected
+Arthur Weasley,Hermione Granger,41,Undirected
+Molly Weasley,Rubeus Hagrid,20,Undirected
+Ginny Weasley,Rubeus Hagrid,14,Undirected
+Ginny Weasley,Hermione Granger,35,Undirected
+Arthur Weasley,Percy Weasley,9,Undirected
+Mr Borgin,Rubeus Hagrid,3,Undirected
+Draco Malfoy,Rubeus Hagrid,77,Undirected
+Lucius Malfoy,Rubeus Hagrid,34,Undirected
+Arthur Weasley,Lucius Malfoy,28,Undirected
+Molly Weasley,Mr Borgin,2,Undirected
+Draco Malfoy,Molly Weasley,15,Undirected
+Lucius Malfoy,Molly Weasley,6,Undirected
+Mr Borgin,Ronald Weasley,1,Undirected
+Lucius Malfoy,Mr Borgin,3,Undirected
+Hermione Granger,Lucius Malfoy,20,Undirected
+Draco Malfoy,Ginny Weasley,76,Undirected
+Ginny Weasley,Lucius Malfoy,7,Undirected
+Hedwig,Percy Weasley,2,Undirected
+Hedwig,Molly Weasley,2,Undirected
+Arthur Weasley,Hedwig,1,Undirected
+Ginny Weasley,Hedwig,2,Undirected
+Oliver Wood,Ronald Weasley,35,Undirected
+Harry Potter,Oliver Wood,270,Undirected
+Hedwig,Oliver Wood,3,Undirected
+Hedwig,Scabbers,2,Undirected
+Harry Potter,Professor McGonagall,401,Undirected
+Professor McGonagall,Ronald Weasley,162,Undirected
+Ginny Weasley,Professor McGonagall,17,Undirected
+Albus Dumbledore,Hermione Granger,35,Undirected
+Albus Dumbledore,Rubeus Hagrid,154,Undirected
+Albus Dumbledore,Severus Snape,49,Undirected
+Ronald Weasley,Severus Snape,170,Undirected
+Arthur Weasley,Severus Snape,4,Undirected
+Professor McGonagall,Severus Snape,53,Undirected
+Albus Dumbledore,Professor McGonagall,136,Undirected
+Arthur Weasley,Professor McGonagall,12,Undirected
+Fred Weasley,Severus Snape,7,Undirected
+George Weasley,Severus Snape,1,Undirected
+Hermione Granger,Professor McGonagall,59,Undirected
+Ronald Weasley,Seamus Finnigan,32,Undirected
+Dean Thomas,Ronald Weasley,37,Undirected
+Neville Longbottom,Ronald Weasley,77,Undirected
+Harry Potter,Seamus Finnigan,68,Undirected
+Dean Thomas,Harry Potter,59,Undirected
+Harry Potter,Neville Longbottom,147,Undirected
+Dean Thomas,Seamus Finnigan,22,Undirected
+Neville Longbottom,Seamus Finnigan,28,Undirected
+Hermione Granger,Seamus Finnigan,38,Undirected
+Dean Thomas,Neville Longbottom,18,Undirected
+Dean Thomas,Hermione Granger,22,Undirected
+Hermione Granger,Neville Longbottom,42,Undirected
+Errol,Neville Longbottom,11,Undirected
+Errol,Molly Weasley,1,Undirected
+Molly Weasley,Neville Longbottom,4,Undirected
+Molly Weasley,Professor McGonagall,13,Undirected
+Professor McGonagall,Professor Sprout,9,Undirected
+Harry Potter,Professor Sprout,95,Undirected
+Professor Sprout,Ronald Weasley,26,Undirected
+Hermione Granger,Professor Sprout,33,Undirected
+Petunia Dursley,Professor Sprout,5,Undirected
+Hermione Granger,Petunia Dursley,2,Undirected
+Harry Potter,Justin Finch-Fletchley,239,Undirected
+Justin Finch-Fletchley,Ronald Weasley,71,Undirected
+Hermione Granger,Justin Finch-Fletchley,61,Undirected
+Katie Bell,Ronald Weasley,27,Undirected
+Katie Bell,Professor McGonagall,3,Undirected
+Hermione Granger,Katie Bell,16,Undirected
+Colin Creevey,Hermione Granger,55,Undirected
+Colin Creevey,Harry Potter,321,Undirected
+Colin Creevey,Ronald Weasley,69,Undirected
+Harry Potter,Vincent Crabbe,146,Undirected
+Gregory Goyle,Harry Potter,162,Undirected
+Colin Creevey,Draco Malfoy,29,Undirected
+Draco Malfoy,Vincent Crabbe,73,Undirected
+Draco Malfoy,Gregory Goyle,56,Undirected
+Colin Creevey,Vincent Crabbe,9,Undirected
+Colin Creevey,Gregory Goyle,5,Undirected
+Gregory Goyle,Vincent Crabbe,74,Undirected
+Ronald Weasley,Vincent Crabbe,90,Undirected
+Gregory Goyle,Ronald Weasley,95,Undirected
+Hermione Granger,Vincent Crabbe,47,Undirected
+Colin Creevey,Katie Bell,6,Undirected
+Colin Creevey,Ginny Weasley,7,Undirected
+Colin Creevey,Neville Longbottom,6,Undirected
+Ginny Weasley,Neville Longbottom,7,Undirected
+Katie Bell,Neville Longbottom,2,Undirected
+Colin Creevey,Hedwig,4,Undirected
+Colin Creevey,Professor Flitwick,6,Undirected
+Harry Potter,Professor Flitwick,36,Undirected
+Colin Creevey,Rubeus Hagrid,8,Undirected
+Hedwig,Professor Flitwick,1,Undirected
+Hedwig,Rubeus Hagrid,1,Undirected
+Professor Flitwick,Ronald Weasley,15,Undirected
+Hermione Granger,Professor Flitwick,13,Undirected
+Professor Flitwick,Rubeus Hagrid,2,Undirected
+Oliver Wood,Professor Flitwick,3,Undirected
+Hermione Granger,Oliver Wood,18,Undirected
+Oliver Wood,Rubeus Hagrid,8,Undirected
+Colin Creevey,Oliver Wood,14,Undirected
+Colin Creevey,Fred Weasley,15,Undirected
+Colin Creevey,George Weasley,13,Undirected
+Alicia Spinnet,Colin Creevey,4,Undirected
+Alicia Spinnet,Harry Potter,30,Undirected
+Angelina Johnson,Harry Potter,18,Undirected
+Angelina Johnson,Colin Creevey,2,Undirected
+Fred Weasley,Oliver Wood,57,Undirected
+George Weasley,Oliver Wood,67,Undirected
+Alicia Spinnet,Oliver Wood,39,Undirected
+Katie Bell,Oliver Wood,13,Undirected
+Angelina Johnson,Oliver Wood,20,Undirected
+Alicia Spinnet,Fred Weasley,8,Undirected
+Fred Weasley,Katie Bell,3,Undirected
+Angelina Johnson,Fred Weasley,5,Undirected
+Alicia Spinnet,George Weasley,8,Undirected
+George Weasley,Katie Bell,3,Undirected
+Angelina Johnson,George Weasley,7,Undirected
+Alicia Spinnet,Katie Bell,5,Undirected
+Alicia Spinnet,Angelina Johnson,5,Undirected
+Angelina Johnson,Katie Bell,5,Undirected
+Oliver Wood,Severus Snape,8,Undirected
+Angelina Johnson,Severus Snape,2,Undirected
+Alicia Spinnet,Severus Snape,2,Undirected
+Katie Bell,Severus Snape,9,Undirected
+Draco Malfoy,Oliver Wood,21,Undirected
+Lucius Malfoy,Oliver Wood,2,Undirected
+Draco Malfoy,Severus Snape,101,Undirected
+Lucius Malfoy,Severus Snape,2,Undirected
+Alicia Spinnet,Hermione Granger,2,Undirected
+Alicia Spinnet,Draco Malfoy,5,Undirected
+Alicia Spinnet,Ronald Weasley,5,Undirected
+Fang,Rubeus Hagrid,46,Undirected
+Fang,Ronald Weasley,83,Undirected
+Fang,Harry Potter,181,Undirected
+Fang,Hermione Granger,7,Undirected
+Albus Dumbledore,Fang,15,Undirected
+Draco Malfoy,Neville Longbottom,23,Undirected
+Neville Longbottom,Rubeus Hagrid,3,Undirected
+Professor McGonagall,Rubeus Hagrid,10,Undirected
+Argus Filch,Rubeus Hagrid,4,Undirected
+Argus Filch,Ronald Weasley,63,Undirected
+Argus Filch,Harry Potter,292,Undirected
+Argus Filch,Professor McGonagall,21,Undirected
+Argus Filch,Hermione Granger,32,Undirected
+Madam Pomfrey,Neville Longbottom,1,Undirected
+Dean Thomas,Madam Pomfrey,1,Undirected
+Madam Pomfrey,Seamus Finnigan,1,Undirected
+Harry Potter,Madam Pomfrey,111,Undirected
+Madam Pomfrey,Ronald Weasley,56,Undirected
+Ginny Weasley,Madam Pomfrey,2,Undirected
+Madam Pomfrey,Percy Weasley,2,Undirected
+Madam Pomfrey,Rubeus Hagrid,2,Undirected
+Ginny Weasley,Oliver Wood,2,Undirected
+Oliver Wood,Percy Weasley,2,Undirected
+Fred Weasley,Nearly Headless Nick,6,Undirected
+Fred Weasley,The Headless Hunt,3,Undirected
+George Weasley,Nearly Headless Nick,7,Undirected
+George Weasley,The Headless Hunt,3,Undirected
+Harry Potter,Nearly Headless Nick,350,Undirected
+Harry Potter,The Headless Hunt,161,Undirected
+Nearly Headless Nick,The Headless Hunt,228,Undirected
+Nearly Headless Nick,Sir Patrick Delaney-Podmore,83,Undirected
+Sir Patrick Delaney-Podmore,The Headless Hunt,33,Undirected
+Harry Potter,Sir Patrick Delaney-Podmore,41,Undirected
+Mrs Norris,Nearly Headless Nick,9,Undirected
+Argus Filch,Nearly Headless Nick,38,Undirected
+Mrs Norris,The Headless Hunt,3,Undirected
+Argus Filch,The Headless Hunt,15,Undirected
+Harry Potter,Mrs Norris,84,Undirected
+Argus Filch,Mrs Norris,68,Undirected
+Argus Filch,Fred Weasley,10,Undirected
+Argus Filch,George Weasley,8,Undirected
+Albus Dumbledore,Argus Filch,50,Undirected
+Harry Potter,Peeves,115,Undirected
+Argus Filch,Peeves,37,Undirected
+Mrs Norris,Peeves,6,Undirected
+Nearly Headless Nick,Peeves,64,Undirected
+Peeves,The Headless Hunt,31,Undirected
+Peeves,Sir Patrick Delaney-Podmore,1,Undirected
+Argus Filch,Sir Patrick Delaney-Podmore,1,Undirected
+Arthur Weasley,Nearly Headless Nick,5,Undirected
+Hermione Granger,Nearly Headless Nick,43,Undirected
+Arthur Weasley,The Headless Hunt,2,Undirected
+Hermione Granger,The Headless Hunt,20,Undirected
+Arthur Weasley,Sir Patrick Delaney-Podmore,1,Undirected
+Hermione Granger,Sir Patrick Delaney-Podmore,6,Undirected
+Ronald Weasley,Sir Patrick Delaney-Podmore,9,Undirected
+Nearly Headless Nick,Ronald Weasley,46,Undirected
+Ronald Weasley,The Headless Hunt,22,Undirected
+Argus Filch,Percy Weasley,5,Undirected
+Nearly Headless Nick,Rubeus Hagrid,8,Undirected
+Rubeus Hagrid,The Headless Hunt,4,Undirected
+Albus Dumbledore,Nearly Headless Nick,2,Undirected
+Albus Dumbledore,The Headless Hunt,1,Undirected
+Harry Potter,The Bloody Baron,3,Undirected
+Ronald Weasley,The Bloody Baron,1,Undirected
+Moaning Myrtle,Ronald Weasley,122,Undirected
+Harry Potter,Moaning Myrtle,261,Undirected
+Hermione Granger,The Bloody Baron,2,Undirected
+Moaning Myrtle,The Bloody Baron,1,Undirected
+Hermione Granger,Moaning Myrtle,148,Undirected
+Hermione Granger,Peeves,39,Undirected
+Peeves,Ronald Weasley,11,Undirected
+Moaning Myrtle,Peeves,63,Undirected
+Moaning Myrtle,Nearly Headless Nick,29,Undirected
+Moaning Myrtle,The Headless Hunt,14,Undirected
+Mrs Norris,Ronald Weasley,29,Undirected
+Hermione Granger,Mrs Norris,22,Undirected
+Argus Filch,Draco Malfoy,9,Undirected
+Draco Malfoy,Mrs Norris,7,Undirected
+Albus Dumbledore,Mrs Norris,28,Undirected
+Arthur Weasley,Mrs Norris,4,Undirected
+Argus Filch,Arthur Weasley,3,Undirected
+Argus Filch,Severus Snape,24,Undirected
+Hermione Granger,Severus Snape,101,Undirected
+Mrs Norris,Professor McGonagall,5,Undirected
+Mrs Norris,Severus Snape,12,Undirected
+Albus Dumbledore,Professor Sprout,6,Undirected
+Professor Sprout,Severus Snape,8,Undirected
+Argus Filch,Professor Sprout,2,Undirected
+Mrs Norris,Professor Sprout,2,Undirected
+Bill Weasley,Ronald Weasley,6,Undirected
+Bill Weasley,Katie Bell,1,Undirected
+Argus Filch,Katie Bell,2,Undirected
+Argus Filch,Bill Weasley,2,Undirected
+Ginny Weasley,Mrs Norris,7,Undirected
+Argus Filch,Ginny Weasley,7,Undirected
+Ginny Weasley,Severus Snape,6,Undirected
+Ginny Weasley,Justin Finch-Fletchley,2,Undirected
+Harry Potter,Professor Binns,28,Undirected
+Justin Finch-Fletchley,Severus Snape,32,Undirected
+Professor Binns,Severus Snape,1,Undirected
+Professor Binns,Ronald Weasley,10,Undirected
+Justin Finch-Fletchley,Professor Binns,5,Undirected
+Hermione Granger,Professor Binns,30,Undirected
+Katie Bell,Professor Binns,1,Undirected
+Dean Thomas,Professor Binns,5,Undirected
+Neville Longbottom,Professor Binns,3,Undirected
+Godric Gryffindor,Professor Binns,1,Undirected
+Professor Binns,Salazar Slytherin,3,Undirected
+Godric Gryffindor,Harry Potter,12,Undirected
+Harry Potter,Salazar Slytherin,53,Undirected
+Godric Gryffindor,Salazar Slytherin,1,Undirected
+Professor Binns,Seamus Finnigan,8,Undirected
+Albus Dumbledore,Seamus Finnigan,5,Undirected
+Albus Dumbledore,Professor Binns,6,Undirected
+Albus Dumbledore,Dean Thomas,2,Undirected
+Albus Dumbledore,Salazar Slytherin,10,Undirected
+Dean Thomas,Salazar Slytherin,1,Undirected
+Ronald Weasley,Salazar Slytherin,7,Undirected
+Hermione Granger,Salazar Slytherin,6,Undirected
+Colin Creevey,Justin Finch-Fletchley,16,Undirected
+Albus Dumbledore,Justin Finch-Fletchley,3,Undirected
+Justin Finch-Fletchley,Mrs Norris,8,Undirected
+Argus Filch,Moaning Myrtle,10,Undirected
+Moaning Myrtle,Percy Weasley,11,Undirected
+Moaning Myrtle,Molly Weasley,2,Undirected
+Madam Pince,Ronald Weasley,9,Undirected
+Hermione Granger,Madam Pince,15,Undirected
+Harry Potter,Madam Pince,12,Undirected
+Madam Pince,Moaning Myrtle,2,Undirected
+Severus Snape,Vincent Crabbe,2,Undirected
+Madam Pince,Severus Snape,1,Undirected
+Draco Malfoy,Madam Pince,1,Undirected
+Madam Hooch,Oliver Wood,28,Undirected
+Harry Potter,Madam Hooch,52,Undirected
+Draco Malfoy,Madam Hooch,4,Undirected
+Fred Weasley,Madam Hooch,13,Undirected
+George Weasley,Madam Hooch,15,Undirected
+Angelina Johnson,Madam Hooch,3,Undirected
+Alicia Spinnet,Madam Hooch,4,Undirected
+Arthur Weasley,Colin Creevey,2,Undirected
+Colin Creevey,Madam Pomfrey,20,Undirected
+Arthur Weasley,Madam Pomfrey,3,Undirected
+Hermione Granger,Madam Pomfrey,62,Undirected
+Draco Malfoy,Madam Pomfrey,5,Undirected
+George Weasley,Madam Pomfrey,1,Undirected
+Dobby,Madam Pomfrey,3,Undirected
+Dobby,Professor McGonagall,7,Undirected
+Albus Dumbledore,Madam Pomfrey,44,Undirected
+Madam Pomfrey,Professor McGonagall,47,Undirected
+Albus Dumbledore,Colin Creevey,33,Undirected
+Colin Creevey,Professor McGonagall,23,Undirected
+Colin Creevey,Dobby,7,Undirected
+Colin Creevey,Percy Weasley,3,Undirected
+Professor Flitwick,Professor McGonagall,14,Undirected
+Draco Malfoy,Professor McGonagall,9,Undirected
+Draco Malfoy,Professor Flitwick,3,Undirected
+Dobby,Professor Flitwick,2,Undirected
+Colin Creevey,Lucius Malfoy,1,Undirected
+Dobby,Ginny Weasley,24,Undirected
+Colin Creevey,Molly Weasley,2,Undirected
+Fred Weasley,Neville Longbottom,3,Undirected
+George Weasley,Neville Longbottom,2,Undirected
+Neville Longbottom,Percy Weasley,3,Undirected
+Argus Filch,Molly Weasley,1,Undirected
+Argus Filch,Neville Longbottom,3,Undirected
+Neville Longbottom,Professor McGonagall,10,Undirected
+Neville Longbottom,Severus Snape,22,Undirected
+Gregory Goyle,Hermione Granger,66,Undirected
+Gregory Goyle,Severus Snape,17,Undirected
+Gregory Goyle,Neville Longbottom,3,Undirected
+Fred Weasley,Gregory Goyle,5,Undirected
+Moaning Myrtle,Severus Snape,5,Undirected
+Gregory Goyle,Katie Bell,2,Undirected
+Gregory Goyle,Moaning Myrtle,8,Undirected
+Katie Bell,Moaning Myrtle,1,Undirected
+Moaning Myrtle,Seamus Finnigan,2,Undirected
+Dean Thomas,Moaning Myrtle,1,Undirected
+Seamus Finnigan,Severus Snape,16,Undirected
+Dean Thomas,Severus Snape,7,Undirected
+Professor Flitwick,Severus Snape,9,Undirected
+Albus Dumbledore,Professor Flitwick,3,Undirected
+Millicent Bulstrode,Severus Snape,10,Undirected
+Justin Finch-Fletchley,Neville Longbottom,9,Undirected
+Millicent Bulstrode,Neville Longbottom,6,Undirected
+Justin Finch-Fletchley,Seamus Finnigan,3,Undirected
+Draco Malfoy,Justin Finch-Fletchley,15,Undirected
+Justin Finch-Fletchley,Millicent Bulstrode,7,Undirected
+Harry Potter,Millicent Bulstrode,68,Undirected
+Millicent Bulstrode,Ronald Weasley,55,Undirected
+Draco Malfoy,Seamus Finnigan,18,Undirected
+Millicent Bulstrode,Seamus Finnigan,5,Undirected
+Hermione Granger,Millicent Bulstrode,62,Undirected
+Draco Malfoy,Millicent Bulstrode,11,Undirected
+Ernie Macmillan,Neville Longbottom,3,Undirected
+Ernie Macmillan,Justin Finch-Fletchley,42,Undirected
+Ernie Macmillan,Ronald Weasley,37,Undirected
+Ernie Macmillan,Seamus Finnigan,1,Undirected
+Ernie Macmillan,Hermione Granger,19,Undirected
+Ernie Macmillan,Millicent Bulstrode,4,Undirected
+Ernie Macmillan,Harry Potter,189,Undirected
+Ernie Macmillan,Severus Snape,5,Undirected
+Justin Finch-Fletchley,The Headless Hunt,20,Undirected
+Justin Finch-Fletchley,Salazar Slytherin,3,Undirected
+Salazar Slytherin,The Headless Hunt,3,Undirected
+Justin Finch-Fletchley,Professor Sprout,4,Undirected
+Colin Creevey,Professor Sprout,2,Undirected
+Colin Creevey,Mrs Norris,4,Undirected
+Justin Finch-Fletchley,Professor McGonagall,14,Undirected
+Hannah Abbott,Justin Finch-Fletchley,4,Undirected
+Hannah Abbott,Harry Potter,34,Undirected
+Ernie Macmillan,Hannah Abbott,23,Undirected
+Argus Filch,Ernie Macmillan,10,Undirected
+Colin Creevey,Ernie Macmillan,7,Undirected
+Argus Filch,Hannah Abbott,4,Undirected
+Colin Creevey,Hannah Abbott,3,Undirected
+Argus Filch,Colin Creevey,4,Undirected
+Ernie Macmillan,Lord Voldemort,4,Undirected
+Justin Finch-Fletchley,Lord Voldemort,3,Undirected
+Ernie Macmillan,Madam Pince,1,Undirected
+Ernie Macmillan,Rubeus Hagrid,8,Undirected
+Madam Pince,Rubeus Hagrid,2,Undirected
+Justin Finch-Fletchley,Rubeus Hagrid,5,Undirected
+Justin Finch-Fletchley,Nearly Headless Nick,39,Undirected
+Justin Finch-Fletchley,Peeves,16,Undirected
+Nearly Headless Nick,Professor McGonagall,35,Undirected
+Professor McGonagall,The Headless Hunt,15,Undirected
+Ernie Macmillan,Nearly Headless Nick,28,Undirected
+Ernie Macmillan,The Headless Hunt,13,Undirected
+Ernie Macmillan,Professor McGonagall,21,Undirected
+Peeves,Professor McGonagall,20,Undirected
+Ernie Macmillan,Peeves,24,Undirected
+Ernie Macmillan,Professor Flitwick,4,Undirected
+Peeves,Professor Flitwick,5,Undirected
+Justin Finch-Fletchley,Professor Flitwick,2,Undirected
+Nearly Headless Nick,Professor Flitwick,7,Undirected
+Professor Flitwick,The Headless Hunt,3,Undirected
+Albus Dumbledore,Fawkes,29,Undirected
+Fawkes,Harry Potter,224,Undirected
+Fawkes,Rubeus Hagrid,2,Undirected
+Albus Dumbledore,Moaning Myrtle,5,Undirected
+Draco Malfoy,Moaning Myrtle,5,Undirected
+Draco Malfoy,Salazar Slytherin,1,Undirected
+Draco Malfoy,Nearly Headless Nick,8,Undirected
+Draco Malfoy,The Headless Hunt,4,Undirected
+Moaning Myrtle,Salazar Slytherin,1,Undirected
+Justin Finch-Fletchley,Moaning Myrtle,1,Undirected
+Nearly Headless Nick,Salazar Slytherin,4,Undirected
+Justin Finch-Fletchley,Vincent Crabbe,2,Undirected
+Gregory Goyle,Justin Finch-Fletchley,1,Undirected
+Nearly Headless Nick,Vincent Crabbe,8,Undirected
+Gregory Goyle,Nearly Headless Nick,8,Undirected
+The Headless Hunt,Vincent Crabbe,4,Undirected
+Gregory Goyle,The Headless Hunt,4,Undirected
+Draco Malfoy,Professor Sprout,4,Undirected
+Professor Sprout,Vincent Crabbe,2,Undirected
+Fred Weasley,Vincent Crabbe,2,Undirected
+George Weasley,Vincent Crabbe,2,Undirected
+Gregory Goyle,Professor Sprout,2,Undirected
+George Weasley,Gregory Goyle,2,Undirected
+Percy Weasley,Vincent Crabbe,9,Undirected
+Gregory Goyle,Percy Weasley,5,Undirected
+Fred Weasley,Professor Sprout,2,Undirected
+George Weasley,Professor Sprout,1,Undirected
+Percy Weasley,Professor Sprout,2,Undirected
+Bill Weasley,Hermione Granger,3,Undirected
+Hermione Granger,Scabbers,4,Undirected
+Cornelius Fudge,Harry Potter,73,Undirected
+Cornelius Fudge,Rubeus Hagrid,135,Undirected
+Cornelius Fudge,Ronald Weasley,46,Undirected
+Cornelius Fudge,Hermione Granger,19,Undirected
+Cornelius Fudge,Molly Weasley,1,Undirected
+Arthur Weasley,Cornelius Fudge,1,Undirected
+Albus Dumbledore,Percy Weasley,1,Undirected
+Professor McGonagall,Vincent Crabbe,3,Undirected
+Gregory Goyle,Professor McGonagall,3,Undirected
+Millicent Bulstrode,Professor McGonagall,2,Undirected
+Millicent Bulstrode,Vincent Crabbe,20,Undirected
+Gregory Goyle,Millicent Bulstrode,26,Undirected
+Moaning Myrtle,Vincent Crabbe,2,Undirected
+Arthur Weasley,Vincent Crabbe,4,Undirected
+Albus Dumbledore,Vincent Crabbe,8,Undirected
+Albus Dumbledore,Gregory Goyle,4,Undirected
+Millicent Bulstrode,Moaning Myrtle,5,Undirected
+Madam Pomfrey,Millicent Bulstrode,2,Undirected
+Madam Pomfrey,Moaning Myrtle,3,Undirected
+Madam Pomfrey,Severus Snape,1,Undirected
+Argus Filch,Madam Pomfrey,2,Undirected
+Moaning Myrtle,Mrs Norris,4,Undirected
+Argus Filch,Lord Voldemort,2,Undirected
+Lord Voldemort,Moaning Myrtle,8,Undirected
+Lord Voldemort,Percy Weasley,17,Undirected
+Lord Voldemort,Nearly Headless Nick,2,Undirected
+Lord Voldemort,The Headless Hunt,1,Undirected
+Lord Voldemort,Madam Pomfrey,2,Undirected
+Justin Finch-Fletchley,Percy Weasley,1,Undirected
+Nearly Headless Nick,Percy Weasley,2,Undirected
+Percy Weasley,The Headless Hunt,1,Undirected
+Justin Finch-Fletchley,Madam Pomfrey,1,Undirected
+Argus Filch,Justin Finch-Fletchley,1,Undirected
+Madam Pomfrey,Nearly Headless Nick,2,Undirected
+Madam Pomfrey,The Headless Hunt,1,Undirected
+Madam Pomfrey,Mrs Norris,1,Undirected
+Ernie Macmillan,Mrs Norris,2,Undirected
+Katie Bell,Lord Voldemort,2,Undirected
+Lord Voldemort,Vincent Crabbe,2,Undirected
+Gregory Goyle,Lord Voldemort,2,Undirected
+Katie Bell,Percy Weasley,1,Undirected
+Katie Bell,Vincent Crabbe,1,Undirected
+Ginny Weasley,Katie Bell,1,Undirected
+Ginny Weasley,Vincent Crabbe,1,Undirected
+Ginny Weasley,Gregory Goyle,1,Undirected
+Ginny Weasley,Lord Voldemort,113,Undirected
+Lord Voldemort,Severus Snape,9,Undirected
+Percy Weasley,Severus Snape,3,Undirected
+Ginny Weasley,Professor Flitwick,4,Undirected
+Lord Voldemort,Professor Flitwick,1,Undirected
+Fred Weasley,Lord Voldemort,2,Undirected
+George Weasley,Lord Voldemort,3,Undirected
+Harry Potter,Professor Dippet,40,Undirected
+Lord Voldemort,Professor Dippet,46,Undirected
+Fawkes,Lord Voldemort,63,Undirected
+Albus Dumbledore,Lord Voldemort,110,Undirected
+Albus Dumbledore,Professor Dippet,8,Undirected
+Lord Voldemort,Rubeus Hagrid,61,Undirected
+Cornelius Fudge,Lord Voldemort,2,Undirected
+Peeves,Rubeus Hagrid,2,Undirected
+Nearly Headless Nick,Professor Sprout,2,Undirected
+Professor Sprout,The Headless Hunt,1,Undirected
+Peeves,Professor Sprout,1,Undirected
+Ernie Macmillan,Professor Sprout,8,Undirected
+Cornelius Fudge,Neville Longbottom,4,Undirected
+Cornelius Fudge,Dean Thomas,2,Undirected
+Cornelius Fudge,Vernon Dursley,2,Undirected
+Cornelius Fudge,Petunia Dursley,2,Undirected
+Cornelius Fudge,Percy Weasley,2,Undirected
+Dean Thomas,Vernon Dursley,1,Undirected
+Dean Thomas,Petunia Dursley,1,Undirected
+Dean Thomas,Percy Weasley,1,Undirected
+Hermione Granger,Vernon Dursley,1,Undirected
+Percy Weasley,Vernon Dursley,1,Undirected
+Percy Weasley,Petunia Dursley,1,Undirected
+Charlie Weasley,Oliver Wood,1,Undirected
+Neville Longbottom,Oliver Wood,2,Undirected
+Lord Voldemort,Neville Longbottom,1,Undirected
+Dean Thomas,Lord Voldemort,2,Undirected
+Lord Voldemort,Seamus Finnigan,1,Undirected
+Lord Voldemort,Oliver Wood,2,Undirected
+Madam Hooch,Ronald Weasley,2,Undirected
+Oliver Wood,Professor McGonagall,16,Undirected
+Madam Hooch,Professor McGonagall,8,Undirected
+Cornelius Fudge,Professor McGonagall,6,Undirected
+Dean Thomas,Professor McGonagall,1,Undirected
+Professor McGonagall,Seamus Finnigan,8,Undirected
+Dean Thomas,Rubeus Hagrid,6,Undirected
+Rubeus Hagrid,Seamus Finnigan,1,Undirected
+Fang,Severus Snape,2,Undirected
+Albus Dumbledore,Cornelius Fudge,99,Undirected
+Cornelius Fudge,Lucius Malfoy,18,Undirected
+Cornelius Fudge,Draco Malfoy,29,Undirected
+Cornelius Fudge,Fang,14,Undirected
+Albus Dumbledore,Lucius Malfoy,52,Undirected
+Fang,Lucius Malfoy,6,Undirected
+Draco Malfoy,Fang,7,Undirected
+Aragog,Cornelius Fudge,2,Undirected
+Aragog,Rubeus Hagrid,57,Undirected
+Aragog,Fang,16,Undirected
+Aragog,Harry Potter,114,Undirected
+Aragog,Ronald Weasley,58,Undirected
+Albus Dumbledore,Aragog,1,Undirected
+Aragog,Hermione Granger,6,Undirected
+Aragog,Madam Pomfrey,1,Undirected
+Fang,Madam Pomfrey,1,Undirected
+Rubeus Hagrid,Vincent Crabbe,1,Undirected
+Gregory Goyle,Rubeus Hagrid,1,Undirected
+Katie Bell,Seamus Finnigan,2,Undirected
+Dean Thomas,Draco Malfoy,5,Undirected
+Dean Thomas,Katie Bell,2,Undirected
+Aragog,Katie Bell,1,Undirected
+Aragog,Draco Malfoy,2,Undirected
+Aragog,Dean Thomas,2,Undirected
+Aragog,Severus Snape,2,Undirected
+Aragog,Justin Finch-Fletchley,1,Undirected
+Aragog,Professor Sprout,1,Undirected
+Aragog,Ernie Macmillan,3,Undirected
+Dean Thomas,Justin Finch-Fletchley,1,Undirected
+Dean Thomas,Professor Sprout,1,Undirected
+Dean Thomas,Ernie Macmillan,3,Undirected
+Hannah Abbott,Hermione Granger,3,Undirected
+Hannah Abbott,Professor Sprout,3,Undirected
+Draco Malfoy,Ernie Macmillan,22,Undirected
+Hannah Abbott,Ronald Weasley,15,Undirected
+Draco Malfoy,Hannah Abbott,7,Undirected
+Ernie Macmillan,Fang,1,Undirected
+Fang,Hannah Abbott,1,Undirected
+Hannah Abbott,Rubeus Hagrid,1,Undirected
+Fang,Professor Sprout,1,Undirected
+Professor Sprout,Rubeus Hagrid,2,Undirected
+Arthur Weasley,Dean Thomas,2,Undirected
+Aragog,Fred Weasley,1,Undirected
+Aragog,George Weasley,1,Undirected
+Aragog,Ginny Weasley,1,Undirected
+Arthur Weasley,Fang,3,Undirected
+Aragog,Mosag,1,Undirected
+Mosag,Rubeus Hagrid,6,Undirected
+Harry Potter,Mosag,2,Undirected
+Aragog,Lord Voldemort,7,Undirected
+Fang,Lord Voldemort,8,Undirected
+Aragog,Neville Longbottom,2,Undirected
+Aragog,Moaning Myrtle,3,Undirected
+Fang,Neville Longbottom,1,Undirected
+Fang,Moaning Myrtle,1,Undirected
+Moaning Myrtle,Neville Longbottom,1,Undirected
+Albus Dumbledore,Oliver Wood,1,Undirected
+Oliver Wood,Professor Sprout,1,Undirected
+Ginny Weasley,Moaning Myrtle,14,Undirected
+Moaning Myrtle,Professor McGonagall,6,Undirected
+Professor Binns,Professor McGonagall,3,Undirected
+Madam Pomfrey,Professor Binns,3,Undirected
+Colin Creevey,Nearly Headless Nick,6,Undirected
+Colin Creevey,The Headless Hunt,2,Undirected
+Mrs Norris,Rubeus Hagrid,2,Undirected
+Moaning Myrtle,Rubeus Hagrid,1,Undirected
+Professor Flitwick,Professor Sprout,3,Undirected
+Madam Hooch,Professor Flitwick,2,Undirected
+Madam Hooch,Professor Sprout,1,Undirected
+Ginny Weasley,Professor Sprout,1,Undirected
+Madam Hooch,Severus Snape,1,Undirected
+Ginny Weasley,Madam Hooch,1,Undirected
+Albus Dumbledore,Madam Hooch,2,Undirected
+Fred Weasley,Professor McGonagall,1,Undirected
+George Weasley,Professor McGonagall,1,Undirected
+Percy Weasley,Professor McGonagall,1,Undirected
+Professor Dippet,Rubeus Hagrid,16,Undirected
+Rubeus Hagrid,Salazar Slytherin,1,Undirected
+Lord Voldemort,Salazar Slytherin,16,Undirected
+Ginny Weasley,Salazar Slytherin,1,Undirected
+Fawkes,Ginny Weasley,28,Undirected
+Fawkes,Salazar Slytherin,2,Undirected
+Fang,Fawkes,9,Undirected
+Fang,Percy Weasley,1,Undirected
+Fang,Ginny Weasley,4,Undirected
+Fawkes,Ronald Weasley,36,Undirected
+Fawkes,Moaning Myrtle,5,Undirected
+Dobby,Moaning Myrtle,2,Undirected
+Fawkes,Professor McGonagall,4,Undirected
+Dobby,Fawkes,2,Undirected
+Fawkes,Molly Weasley,5,Undirected
+Arthur Weasley,Fawkes,2,Undirected
+Dobby,Molly Weasley,2,Undirected
+Arthur Weasley,Dobby,9,Undirected
+Lord Voldemort,Professor McGonagall,6,Undirected
+Lord Voldemort,Molly Weasley,10,Undirected
+Aragog,Professor McGonagall,2,Undirected
+Aragog,Molly Weasley,1,Undirected
+Aragog,Fawkes,1,Undirected
+Arthur Weasley,Lord Voldemort,10,Undirected
+Madam Pomfrey,Molly Weasley,1,Undirected
+Dobby,Salazar Slytherin,1,Undirected
+Albus Dumbledore,Godric Gryffindor,4,Undirected
+Godric Gryffindor,Lord Voldemort,1,Undirected
+Godric Gryffindor,Professor McGonagall,2,Undirected
+Lord Voldemort,Lucius Malfoy,8,Undirected
+Dobby,Justin Finch-Fletchley,3,Undirected

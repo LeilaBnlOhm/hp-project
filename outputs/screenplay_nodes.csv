@@ -1,0 +1,55 @@
+Id,Label,Weight,House
+Harry Potter,Harry Potter,876,Gryffindor
+Ronald Weasley,Ronald Weasley,426,Gryffindor
+Hermione Granger,Hermione Granger,194,Gryffindor
+Draco Malfoy,Draco Malfoy,142,Slytherin
+Rubeus Hagrid,Rubeus Hagrid,112,Gryffindor
+Dobby,Dobby,106,Other
+Albus Dumbledore,Albus Dumbledore,104,Gryffindor
+Lord Voldemort,Lord Voldemort,99,Slytherin
+Ginny Weasley,Ginny Weasley,58,Gryffindor
+Lucius Malfoy,Lucius Malfoy,56,Slytherin
+Professor McGonagall,Professor McGonagall,55,Gryffindor
+Vernon Dursley,Vernon Dursley,38,Other
+Severus Snape,Severus Snape,34,Slytherin
+Justin Finch-Fletchley,Justin Finch-Fletchley,28,Hufflepuff
+Argus Filch,Argus Filch,27,Other
+Moaning Myrtle,Moaning Myrtle,27,Ravenclaw
+Colin Creevey,Colin Creevey,25,Gryffindor
+Arthur Weasley,Arthur Weasley,25,Gryffindor
+Molly Weasley,Molly Weasley,23,Gryffindor
+Vincent Crabbe,Vincent Crabbe,22,Slytherin
+Neville Longbottom,Neville Longbottom,20,Gryffindor
+Gregory Goyle,Gregory Goyle,18,Slytherin
+Percy Weasley,Percy Weasley,18,Gryffindor
+Fred Weasley,Fred Weasley,17,Gryffindor
+Fawkes,Fawkes,17,Other
+Madam Pomfrey,Madam Pomfrey,16,Other
+George Weasley,George Weasley,16,Gryffindor
+Hedwig,Hedwig,16,Other
+Dudley Dursley,Dudley Dursley,15,Other
+Oliver Wood,Oliver Wood,15,Gryffindor
+Aragog,Aragog,15,Other
+Cornelius Fudge,Cornelius Fudge,13,Other
+Mr Borgin,Mr Borgin,12,Other
+Fang,Fang,12,Other
+Petunia Dursley,Petunia Dursley,11,Other
+Nearly Headless Nick,Nearly Headless Nick,11,Gryffindor
+Professor Sprout,Professor Sprout,11,Hufflepuff
+Seamus Finnigan,Seamus Finnigan,11,Gryffindor
+Mrs Norris,Mrs Norris,10,Other
+Salazar Slytherin,Salazar Slytherin,8,Slytherin
+Errol,Errol,6,Other
+Ernie Macmillan,Ernie Macmillan,5,Hufflepuff
+The Headless Hunt,The Headless Hunt,5,Other
+Hannah Abbott,Hannah Abbott,4,Hufflepuff
+Dean Thomas,Dean Thomas,4,Gryffindor
+Millicent Bulstrode,Millicent Bulstrode,4,Slytherin
+The Masons,The Masons,3,Other
+Professor Dippet,Professor Dippet,2,Other
+Godric Gryffindor,Godric Gryffindor,2,Gryffindor
+Madam Pince,Madam Pince,2,Other
+Katie Bell,Katie Bell,2,Gryffindor
+Angelina Johnson,Angelina Johnson,2,Gryffindor
+Alicia Spinnet,Alicia Spinnet,2,Gryffindor
+Scabbers,Scabbers,2,Other
