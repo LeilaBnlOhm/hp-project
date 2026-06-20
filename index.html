@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Harry Potter — Méthodes numériques</title>
-    <link rel="stylesheet" href="./style.css?v=10">
+    <link rel="stylesheet" href="./style.css?v=11">
 </head>
 
 <body>
@@ -192,11 +192,7 @@
                         <td>0,382</td>
                         <td>0,356</td>
                     </tr>
-                    <tr>
-                        <td>Diamètre</td>
-                        <td>2</td>
-                        <td>—</td>
-                    </tr>
+                
                     <tr>
                         <td>Modularité</td>
                         <td>0,025</td>
@@ -207,23 +203,26 @@
                         <td>0,757</td>
                         <td>0,742</td>
                     </tr>
-                    <tr>
-                        <td>Plus courts chemins (moy.)</td>
-                        <td>1,618</td>
-                        <td>—</td>
-                    </tr>
+                
                 </tbody>
             </table>
         </div>
 
         <p>
-            Ces chiffres confirment que le réseau du film est structurellement moins dense que celui du roman :
-            9 personnages de moins, 237 arêtes de moins, et un degré moyen inférieur de près de 5 points.
-            La densité légèrement plus faible du film (0,356 contre 0,382) indique que les connexions
-            entre personnages sont proportionnellement moins nombreuses, même en tenant compte
-            de la différence de taille du réseau. La modularité très basse dans les deux cas (0,025 et 0,003)
-            suggère que les personnages ne forment pas de communautés bien distinctes —
+            Ces chiffres confirment que le réseau du film est structurellement moins dense que celui du roman : 
+            9 personnages de moins, 237 arêtes de moins, et un degré moyen inférieur de près de 5 points. 
+            La densité légèrement plus faible du film (0,356 contre 0,382) indique que les connexions 
+            entre personnages sont proportionnellement moins nombreuses, même en tenant compte 
+            de la différence de taille du réseau. La modularité très basse dans les deux cas (0,025 et 0,003) 
+            suggère que les personnages ne forment pas de communautés bien distinctes — 
             tout le monde interagit avec tout le monde — mais ce phénomène est encore plus marqué dans le film.
+            Le coefficient de clustering, élevé dans les deux corpus (0,757 pour le roman, 0,742 pour le film), 
+            indique que les voisins d'un personnage ont eux-mêmes tendance à être connectés entre eux : 
+            les relations forment des triangles plutôt que des chaînes linéaires, ce qui reflète 
+            la nature communautaire de l'univers de Poudlard. Enfin, les deux réseaux ne comptent 
+            qu'<strong>une seule composante connexe</strong>, ce qui signifie qu'aucun personnage 
+            n'est isolé : tous sont reliés au reste du réseau par au moins un chemin, 
+            aussi bien dans le roman que dans le film.
         </p>
 
         <!-- Graphes sans couleur -->
@@ -282,7 +281,7 @@
 
     <!-- Équipe -->
     <section class="content-card" id="equipe">
-        <h2>Les sorciers du projet</h2>
+        <h2>La sorcière du projet</h2>
         <p>Projet réalisé individuellement dans le cadre du cours <em>Application de méthodes numériques pour les sciences humaines et historiques</em> — Université de Neuchâtel, 2026.</p>
         <p><strong>Leïla BEN ALI OUHAMMA</strong> — Collecte des données, traitement Python, analyse de réseaux (Gephi), text mining (Orange), documentation.</p>
     </section>
