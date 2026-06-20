@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet Harry Potter — Méthodes numériques</title>
-    <link rel="stylesheet" href="./style.css?v=11">
+    <link rel="stylesheet" href="./style.css?v=12">
 </head>
 
 <body>
@@ -267,7 +267,55 @@
         </div>
 
         <h3>4.2 Analyse textuelle — Orange Data Mining</h3>
-        <p><em>Cette section sera complétée après finalisation du nuage de mots dans Orange.</em></p>
+            <p>
+                Une analyse text mining a été conduite dans Orange Data Mining (add-on Text) 
+                pour comparer le vocabulaire des deux corpus. Après prétraitement 
+                (mise en minuscules, tokenisation par expressions régulières <code>\w+</code>, 
+                suppression des mots vides en anglais), un nuage de mots a été généré 
+                séparément pour le roman et pour le film.
+            </p>
+
+            <div class="figure-grid">
+                <figure>
+                    <img class="result-image" src="./images/word-cloud-roman.png"
+                        alt="Nuage de mots — Roman">
+                    <figcaption>Figure 5 — Nuage de mots du roman.</figcaption>
+                </figure>
+                <figure>
+                    <img class="result-image" src="./images/word-cloud-film.png"
+                        alt="Nuage de mots — Film">
+                    <figcaption>Figure 6 — Nuage de mots du script du film.</figcaption>
+                </figure>
+            </div>
+
+            <p>
+                La comparaison des deux nuages révèle des différences lexicales significatives. 
+                Dans le roman, les termes <em>chamber</em>, <em>secrets</em>, <em>riddle</em> et 
+                <em>dobby</em> dominent aux côtés des noms de personnages principaux, 
+                reflétant la richesse narrative et thématique du texte : le roman développe 
+                longuement les intrigues autour du journal de Tom Riddle, de la Chambre 
+                des Secrets et de l'elfe de maison. On note également la présence de termes 
+                comme <em>diary</em>, <em>basilisk</em>, <em>heir</em>, <em>muggle</em> ou 
+                <em>spiders</em>, qui renvoient à des sous-intrigues et des développements 
+                narratifs absents ou fortement réduits dans le film.
+            </p>
+            <p>
+                Dans le nuage du film en revanche, le vocabulaire est plus concentré 
+                autour des personnages et de l'action immédiate : <em>said</em>, <em>back</em>, 
+                <em>one</em>, <em>go</em>, <em>look</em> dominent, des verbes génériques 
+                qui traduisent la nature dialogique et scénique du script. 
+                Les termes thématiques spécifiques au tome 2 — <em>heir</em>, <em>basilisk</em>, 
+                <em>diary</em>, <em>muggle</em> — sont absents ou marginaux, 
+                ce qui confirme que le film concentre sa narration sur les personnages 
+                centraux et l'action principale, au détriment de la profondeur thématique 
+                présente dans le roman.
+            </p>
+            <p>
+                Ces résultats complètent l'analyse de réseaux : non seulement le film 
+                simplifie la structure relationnelle entre personnages, mais il appauvrit 
+                également le contenu lexical et thématique du récit, confirmant empiriquement 
+                l'intuition initiale des fans.
+            </p>
 
         <div class="button-group">
             <a class="bouton" href="https://github.com/LeilaBnlOhm/hp-project/blob/main/Notebook-harry-potter-BENALIOUHAMMA.ipynb">
